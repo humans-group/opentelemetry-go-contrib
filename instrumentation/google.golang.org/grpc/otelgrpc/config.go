@@ -12,8 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelgrpc // import "github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc"
+package otelgrpc // import "github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 
 import (
 	"go.opentelemetry.io/otel"
@@ -27,8 +26,7 @@ import (
 
 const (
 	// instrumentationName is the name of this instrumentation package.
-	instrumentationName = "github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc"
+	instrumentationName = "github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	// GRPCStatusCodeKey is convention for numeric status code of a gRPC request.
 	GRPCStatusCodeKey = attribute.Key("rpc.grpc.status_code")
 )

@@ -25,8 +25,7 @@ import (
 	pb "google.golang.org/grpc/interop/grpc_testing"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc"
+	"github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"go.opentelemetry.io/otel/trace"
 )
 

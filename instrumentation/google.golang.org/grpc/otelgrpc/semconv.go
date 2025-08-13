@@ -12,8 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otelgrpc // import "github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc"
+package otelgrpc // import "github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 
 import (
 	"go.opentelemetry.io/otel/attribute"

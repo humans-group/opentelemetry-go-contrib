@@ -13,7 +13,6 @@
 // limitations under the License.
 
 package otelgrpc // import "github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc"
 
 // gRPC tracing middleware
 // https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/semantic_conventions/rpc.md
@@ -31,8 +30,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc/internal"
+	"github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc/internal"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/metric"

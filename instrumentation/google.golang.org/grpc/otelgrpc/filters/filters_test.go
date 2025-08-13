@@ -12,16 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package filters // import "github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc/filters"
+package filters // import "github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc/filters"
 
 import (
 	"testing"
 
 	"google.golang.org/grpc"
 
-	"github.com/humans-group/opentelemetry-go-contrib
-/instrumentation/google.golang.org/grpc/otelgrpc"
+	"github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 )
 
 type testCase struct {
