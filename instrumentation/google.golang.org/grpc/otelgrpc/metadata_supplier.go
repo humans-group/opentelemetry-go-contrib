@@ -19,9 +19,9 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.opentelemetry.io/otel/baggage"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/humans-group/opentelemetry-go/baggage"
+	"github.com/humans-group/opentelemetry-go/propagation"
+	"github.com/humans-group/opentelemetry-go/trace"
 )
 
 type metadataSupplier struct {

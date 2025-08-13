@@ -15,8 +15,8 @@
 package otelgrpc // import "github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 
 import (
-	"go.opentelemetry.io/otel/attribute"
-	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
+	"github.com/humans-group/opentelemetry-go/attribute"
+	semconv "github.com/humans-group/opentelemetry-go/semconv/v1.17.0"
 )
 
 // Semantic conventions for attribute keys for gRPC.

@@ -26,7 +26,7 @@ import (
 	"google.golang.org/grpc/test/bufconn"
 
 	"github.com/humans-group/opentelemetry-go-contrib/instrumentation/google.golang.org/grpc/otelgrpc"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/humans-group/opentelemetry-go/trace"
 )
 
 const bufSize = 2048

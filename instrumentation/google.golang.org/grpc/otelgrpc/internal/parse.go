@@ -17,8 +17,8 @@ package internal // import "github.com/humans-group/opentelemetry-go-contrib/ins
 import (
 	"strings"
 
-	"go.opentelemetry.io/otel/attribute"
-	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
+	"github.com/humans-group/opentelemetry-go/attribute"
+	semconv "github.com/humans-group/opentelemetry-go/semconv/v1.17.0"
 )
 
 // ParseFullMethod returns a span name following the OpenTelemetry semantic
