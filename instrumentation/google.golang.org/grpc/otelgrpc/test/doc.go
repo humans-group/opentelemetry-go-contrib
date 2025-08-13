@@ -19,4 +19,5 @@ This package is in a separate module from the instrumentation it tests to
 isolate the dependency of the default SDK and not impose this as a transitive
 dependency for users.
 */
-package test // import "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/test"
+package test // import "github.com/humans-group/opentelemetry-go-contrib
+/instrumentation/google.golang.org/grpc/otelgrpc/test"

@@ -12,7 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package internal // import "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/internal"
+package internal // import "github.com/humans-group/opentelemetry-go-contrib
+/instrumentation/google.golang.org/grpc/otelgrpc/internal"
 
 import (
 	"strings"

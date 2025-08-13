@@ -1,10 +1,12 @@
-module go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/test
+module github.com/humans-group/opentelemetry-go-contrib
+/instrumentation/google.golang.org/grpc/otelgrpc/test
 
 go 1.19
 
 require (
 	github.com/stretchr/testify v1.8.2
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.41.0
+	github.com/humans-group/opentelemetry-go-contrib
+/instrumentation/google.golang.org/grpc/otelgrpc v0.41.0
 	go.opentelemetry.io/otel v1.15.0
 	go.opentelemetry.io/otel/sdk v1.15.0
 	go.opentelemetry.io/otel/sdk/metric v0.38.0
@@ -33,4 +35,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc => ../
+replace github.com/humans-group/opentelemetry-go-contrib
+/instrumentation/google.golang.org/grpc/otelgrpc => ../
